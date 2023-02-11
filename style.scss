@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog-sections {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .dateinfo {
+    padding: 25px 25px;
+    background-color: aquamarine;
+    margin: 0rem 2rem 0rem 0rem;
+
+    ul {
+      flex-direction: column;
+      align-self: center;
+      justify-content: center;
+      align-items: center;
+
+      .numberdate {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .blogpost {
+    display: flex;
+    text-align: center;
+    height: fit-content;
+    align-items: center;
+  }
+
+  .postinfo {
+
+    width: 800px;
+
+    #posted {
+      color: gray;
+    }
+  }
+
+
+}
